@@ -1,0 +1,62 @@
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+header {
+  width: 1000px;
+  height: 450px;
+  margin: 0;
+  background-color: skyblue;
+  background-image: url(img/DSC_0302.JPG);
+  background-size: cover;
+}
+
+header h1 {
+  text-align: center;
+  top: auto;
+  margin: 0;
+  font-size: 30px;
+}
+.container {
+  width: 980px;
+  height: 1500px;
+}
+
+clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.main {
+  width: 600px;
+  float: left;
+  border: solid 2px red;
+}
+.main h1 {
+  text-align: center;
+}
+.main img {
+  width: 40%;
+  float: left;
+  margin-right: 10px;
+}
+
+.side {
+  height: auto;
+  width: 350px;
+  float: right;
+  border: solid 2px skyblue;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+}
