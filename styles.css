@@ -1,5 +1,5 @@
 .wrapper {
-  max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -11,16 +11,15 @@ header {
   width: 1000px;
   height: 450px;
   margin: 0;
-  background-color: skyblue;
   background-image: url(img/DSC_0302.JPG);
   background-size: cover;
 }
 
 header h1 {
   text-align: center;
-  top: auto;
   margin: 0;
   font-size: 30px;
+  opacity: 0.5;
 }
 .container {
   width: 980px;
