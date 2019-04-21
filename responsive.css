@@ -1,0 +1,27 @@
+@media(max-width: 670px )  {
+ .main {
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
+
+  .side {
+     float: none;
+     margin: 0;
+     width: 100%;
+   }
+
+  header {
+    background-size: cover;
+    margin: 0;
+  }
+
+  .clearfix::after {
+      content: '';
+      display: none;
+      clear: none;
+  }
+  .footer {
+
+  }
+}
