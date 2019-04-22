@@ -11,9 +11,19 @@
      width: 100%;
    }
 
+   .side h1 {
+     text-align: center;
+   }
+
+   .side li {
+     display: inline;
+     margin-right: 50px;
+   }
+
   header {
     background-size: cover;
-    margin: 0;
+    margin: 0 auto;
+    width: auto;
   }
 
   .clearfix::after {
@@ -21,7 +31,15 @@
       display: none;
       clear: none;
   }
-  .footer {
-
+  .container {
+    width: auto;
+  }
+  footer h1 {
+    display: none;
+  }
+  .footer h1 {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
   }
 }
