@@ -4,6 +4,14 @@
     margin: 0;
     width: 100%;
   }
+  header {
+    background-size: cover;
+    margin: 0 auto;
+    width: auto;
+  }
+  .container {
+    width: auto;
+  }
 
   .side {
      float: none;
@@ -20,19 +28,11 @@
      margin-right: 50px;
    }
 
-  header {
-    background-size: cover;
-    margin: 0 auto;
-    width: auto;
-  }
 
   .clearfix::after {
       content: '';
       display: none;
       clear: none;
-  }
-  .container {
-    width: auto;
   }
   footer h1 {
     display: none;
