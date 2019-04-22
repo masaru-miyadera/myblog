@@ -60,10 +60,6 @@ clearfix::after {
   width: 40%;
 }
 
-.container {
-  margin-top: 10px;
-}
-
 footer h1 {
   text-align: center;
 }
